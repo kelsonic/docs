@@ -4,7 +4,7 @@
   "name": "Portal",
   "description": "Portal is a key management platform for stablecoin companies. Create wallets, send and receive funds on-chain - all in a day.",
   "colors": {
-    "primary": "#D68DF0",
+    "primary": "#5a86fa",
     "light": "#789CFA",
     "dark": "#3E71F8"
   },
@@ -30,58 +30,241 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
+            "pages": ["index"]
+          },
+          {
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "sdks/quickstart",
+              "apis/quickstart"
             ]
           },
           {
-            "group": "Customization",
+            "group": "SDKs",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              {
+                "group": "Web",
+                "pages": [
+                  {
+                    "group": "Guide",
+                    "pages": [
+                      "sdks/web/guide/create-a-wallet",
+                      "sdks/web/guide/send-tokens",
+                      "sdks/web/guide/sign-a-transaction",
+                      "sdks/web/guide/simulate-a-transaction",
+                      "sdks/web/guide/back-up-a-wallet",
+                      "sdks/web/guide/recover-a-wallet",
+                      "sdks/web/guide/cross-device-sessions",
+                      "sdks/web/guide/manage-wallet-lifecycle-states",
+                      "sdks/web/guide/web-authentication-methods",
+                      "sdks/web/guide/perform-swaps",
+                      "sdks/web/guide/add-custom-signature-hooks",
+                      "sdks/web/guide/mpc-progress-callbacks",
+                      "sdks/web/guide/portal-api-methods",
+                      "sdks/web/guide/configure-a-custom-subdomain",
+                      "sdks/web/guide/eject-a-wallet",
+                      "sdks/web/guide/using-the-eip-1193-provider"
+                    ]
+                  },
+                  {
+                    "group": "Reference",
+                    "pages": ["sdks/web/reference"]
+                  }
+                ]
+              },
+              {
+                "group": "iOS",
+                "pages": [
+                  {
+                    "group": "Guide",
+                    "pages": [
+                      "sdks/ios/guide/create-a-wallet",
+                      "sdks/ios/guide/send-tokens",
+                      "sdks/ios/guide/sign-a-transaction",
+                      "sdks/ios/guide/simulate-a-transaction",
+                      "sdks/ios/guide/back-up-a-wallet",
+                      "sdks/ios/guide/recover-a-wallet",
+                      "sdks/ios/guide/cross-device-sessions",
+                      "sdks/ios/guide/manage-wallet-lifecycle-states",
+                      "sdks/ios/guide/connect-with-walletconnect",
+                      "sdks/ios/guide/build-a-webview",
+                      "sdks/ios/guide/perform-swaps",
+                      "sdks/ios/guide/add-custom-signature-hooks",
+                      "sdks/ios/guide/mpc-progress-callbacks",
+                      "sdks/ios/guide/portal-api-methods",
+                      "sdks/ios/guide/manage-erc20-tokens",
+                      "sdks/ios/guide/eject-a-wallet",
+                      "sdks/ios/guide/troubleshooting-tips",
+                      "sdks/ios/guide/feature-flags"
+                    ]
+                  },
+                  {
+                    "group": "Reference",
+                    "pages": ["sdks/ios/reference"]
+                  }
+                ]
+              },
+              {
+                "group": "Android",
+                "pages": [
+                  {
+                    "group": "Guide",
+                    "pages": [
+                      "sdks/android/guide/create-a-wallet",
+                      "sdks/android/guide/send-tokens",
+                      "sdks/android/guide/sign-a-transaction",
+                      "sdks/android/guide/simulate-a-transaction",
+                      "sdks/android/guide/back-up-a-wallet",
+                      "sdks/android/guide/recover-a-wallet",
+                      "sdks/android/guide/cross-device-sessions",
+                      "sdks/android/guide/manage-wallet-lifecycle-states",
+                      "sdks/android/guide/connect-with-walletconnect",
+                      "sdks/android/guide/build-a-webview",
+                      "sdks/android/guide/perform-swaps",
+                      "sdks/android/guide/add-custom-signature-hooks",
+                      "sdks/android/guide/mpc-progress-callbacks",
+                      "sdks/android/guide/portal-api-methods",
+                      "sdks/android/guide/eject-a-wallet"
+                    ]
+                  },
+                  {
+                    "group": "Reference",
+                    "pages": ["sdks/android/reference"]
+                  }
+                ]
+              },
+              {
+                "group": "React Native",
+                "pages": [
+                  {
+                    "group": "Guide",
+                    "pages": [
+                      "sdks/react-native/guide/create-a-wallet",
+                      "sdks/react-native/guide/send-tokens",
+                      "sdks/react-native/guide/sign-a-transaction",
+                      "sdks/react-native/guide/simulate-a-transaction",
+                      "sdks/react-native/guide/back-up-a-wallet",
+                      "sdks/react-native/guide/recover-a-wallet",
+                      "sdks/react-native/guide/cross-device-sessions",
+                      "sdks/react-native/guide/manage-wallet-lifecycle-states",
+                      "sdks/react-native/guide/connect-with-walletconnect",
+                      "sdks/react-native/guide/build-a-webview",
+                      "sdks/react-native/guide/perform-swaps",
+                      "sdks/react-native/guide/add-custom-signature-hooks",
+                      "sdks/react-native/guide/mpc-progress-callbacks",
+                      "sdks/react-native/guide/portal-api-methods",
+                      "sdks/react-native/guide/eject-a-wallet"
+                    ]
+                  },
+                  {
+                    "group": "Reference",
+                    "pages": ["sdks/react-native/reference"]
+                  }
+                ]
+              },
+              {
+                "group": "Flutter",
+                "pages": [
+                  {
+                    "group": "Guide",
+                    "pages": [
+                      "sdks/flutter/guide/create-a-wallet",
+                      "sdks/flutter/guide/send-tokens",
+                      "sdks/flutter/guide/sign-a-transaction",
+                      "sdks/flutter/guide/simulate-a-transaction",
+                      "sdks/flutter/guide/back-up-a-wallet"
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
-            "group": "Writing content",
+            "group": "APIs",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              {
+                "group": "Enclave MPC API",
+                "pages": [
+                  {
+                    "group": "Guide",
+                    "pages": [
+                      "apis/enclave-mpc/guide/create-a-client",
+                      "apis/enclave-mpc/guide/create-a-wallet",
+                      "apis/enclave-mpc/guide/send-tokens",
+                      "apis/enclave-mpc/guide/sign-ethereum-transactions",
+                      "apis/enclave-mpc/guide/sign-solana-transactions",
+                      "apis/enclave-mpc/guide/sign-stellar-transactions",
+                      "apis/enclave-mpc/guide/sign-tron-transactions",
+                      "apis/enclave-mpc/guide/concurrent-transactions",
+                      "apis/enclave-mpc/guide/backup",
+                      "apis/enclave-mpc/guide/eject-a-wallet"
+                    ]
+                  },
+                  {
+                    "group": "Reference",
+                    "pages": ["apis/enclave-mpc/reference/v3"]
+                  }
+                ]
+              },
+              {
+                "group": "Client API",
+                "pages": ["apis/client/reference"]
+              },
+              {
+                "group": "Custodian API",
+                "pages": ["apis/custodian/reference"]
+              }
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Resources",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              {
+                "group": "Core Concepts",
+                "pages": [
+                  "resources/portals-mpc-architecture",
+                  "resources/wallet-lifecycle",
+                  "resources/backup-options",
+                  "resources/rate-limits",
+                  "resources/error-codes",
+                  "resources/blockchain-support",
+                  "resources/chain-id-formatting",
+                  "resources/glossary"
+                ]
+              },
+              {
+                "group": "Security",
+                "pages": [
+                  "resources/security",
+                  "resources/authentication-and-api-keys",
+                  "resources/advanced-security-scanning",
+                  "resources/eject",
+                  "resources/firewall"
+                ]
+              },
+              {
+                "group": "Additional Features",
+                "pages": [
+                  "resources/alert-webhooks",
+                  "resources/account-abstraction",
+                  "resources/walletconnect-metadata",
+                  "resources/self-managed-backups"
+                ]
+              },
+              {
+                "group": "Support and More",
+                "pages": [
+                  "resources/going-to-production",
+                  "resources/testnet-faucets",
+                  "resources/support",
+                  "resources/changelog",
+                  "resources/mxnb-hackathon-hub"
+                ]
+              }
             ]
           }
         ]
@@ -93,6 +276,16 @@
           "anchor": "GitHub",
           "href": "https://github.com/portal-hq",
           "icon": "github"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://join.slack.com/t/portalcommunity/shared_invite/zt-1zlyexf43-A94Z4ugntrgLGs2j5slmeQ",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://blog.portalhq.io",
+          "icon": "newspaper"
         }
       ]
     }
