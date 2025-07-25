@@ -169,16 +169,8 @@
               {
                 "group": "Flutter",
                 "pages": [
-                  {
-                    "group": "Guide",
-                    "pages": [
-                      "sdks/flutter/guide/create-a-wallet",
-                      "sdks/flutter/guide/send-tokens",
-                      "sdks/flutter/guide/sign-a-transaction",
-                      "sdks/flutter/guide/simulate-a-transaction",
-                      "sdks/flutter/guide/back-up-a-wallet"
-                    ]
-                  }
+                  "sdks/flutter/guide/ios",
+                  "sdks/flutter/guide/android"
                 ]
               }
             ]
@@ -223,17 +215,22 @@
           {
             "group": "Resources",
             "pages": [
+              "resources/blockchain-support",
               {
                 "group": "Core Concepts",
                 "pages": [
                   "resources/portals-mpc-architecture",
                   "resources/wallet-lifecycle",
-                  "resources/backup-options",
-                  "resources/rate-limits",
-                  "resources/error-codes",
-                  "resources/blockchain-support",
-                  "resources/chain-id-formatting",
-                  "resources/glossary"
+                  {
+                    "group": "Backup Options",
+                    "pages": [
+                      "resources/backup-options/gdrive",
+                      "resources/backup-options/icloud",
+                      "resources/backup-options/passkey-+-enclave",
+                      "resources/backup-options/password-pin"
+                    ]
+                  },
+                  "resources/rate-limits"
                 ]
               },
               {
@@ -256,13 +253,11 @@
                 ]
               },
               {
-                "group": "Support and More",
+                "group": "Additional Resources",
                 "pages": [
                   "resources/going-to-production",
                   "resources/testnet-faucets",
-                  "resources/support",
-                  "resources/changelog",
-                  "resources/mxnb-hackathon-hub"
+                  "resources/chain-id-formatting"
                 ]
               }
             ]
