@@ -196,19 +196,16 @@
                       "apis/enclave-mpc/guide/eject-a-wallet"
                     ]
                   },
-                  {
-                    "group": "Reference",
-                    "pages": ["apis/enclave-mpc/reference/v3"]
-                  }
+                  "apis/enclave-mpc/reference/v1"
                 ]
               },
               {
                 "group": "Client API",
-                "pages": ["apis/client/reference"]
+                "pages": ["apis/client/reference/v3"]
               },
               {
                 "group": "Custodian API",
-                "pages": ["apis/custodian/reference"]
+                "pages": ["apis/custodian/reference/v3"]
               }
             ]
           },
