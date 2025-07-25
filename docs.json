@@ -230,7 +230,8 @@
                       "resources/backup-options/password-pin"
                     ]
                   },
-                  "resources/rate-limits"
+                  "resources/rate-limits",
+                  "resources/error-codes"
                 ]
               },
               {
@@ -257,7 +258,9 @@
                 "pages": [
                   "resources/going-to-production",
                   "resources/testnet-faucets",
-                  "resources/chain-id-formatting"
+                  "resources/chain-id-formatting",
+                  "resources/glossary",
+                  "resources/hackathon-hub"
                 ]
               }
             ]
